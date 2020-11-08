@@ -13,5 +13,11 @@
     <module name="NestedForDepth">
       <property name="max" value="0"/>
     </module>
+    <module name="LeftCurly">
+      <property name="tokens" value="CLASS_DEF,METHOD_DEF,CTOR_DEF,ENUM_CONSTANT_DEF,ENUM_DEF,INTERFACE_DEF,LAMBDA,LITERAL_CASE,LITERAL_CATCH,LITERAL_DEFAULT,LITERAL_DO,LITERAL_ELSE,LITERAL_FINALLY,LITERAL_FOR,LITERAL_IF,LITERAL_SWITCH,LITERAL_SYNCHRONIZED,LITERAL_TRY,LITERAL_WHILE"/>
+    </module>
+    <module name="CyclomaticComplexity">
+      <property name="max" value="3"/>
+    </module>
   </module>
 </module>
