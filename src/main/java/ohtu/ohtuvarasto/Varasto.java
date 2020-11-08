@@ -22,10 +22,10 @@ public class Varasto {
             this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
         }
     }
-    
+
     private double laskeTilavuus(double tilavuus) {
         if (tilavuus > 0.0) {
-            return  tilavuus;
+            return tilavuus;
         } else { // virheellinen, nollataan
             return 0.0;  // => käyttökelvoton varasto
         }
