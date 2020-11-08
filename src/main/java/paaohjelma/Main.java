@@ -8,7 +8,7 @@ public class Main {
         Varasto varasto = new Varasto(20, 5);
     }
 
-    //tämä rikkoo checkstylen
+    /* //tämä rikkoo checkstylen
     public void asd() 
     {
         if (true)
@@ -34,5 +34,5 @@ public class Main {
 
 
     }
-     
+     */
 }
